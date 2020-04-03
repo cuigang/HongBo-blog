@@ -11,7 +11,7 @@
                 {% for article in articles_page.object_list %}
                         <article class="entry" data-aos="fade-up">
                                 <div class="entry-img">
-                                    <img src="/assets/img/blog-1.jpg" alt="" class="img-fluid">
+                                    <img src="images/{{ article.picture }}" alt="" class="img-fluid">
                                 </div>
                                 <h2 class="entry-title">
                                     <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
