@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- ======= Blog Section ======= -->
+<section id="blog" class="blog">
+    <div class="container">
+       <div class="row">
+
+
+        <div class="col-lg-8 entries">
+                 
+                {% for article in articles_page.object_list %}
+                        <article class="entry" data-aos="fade-up">
+                                <div class="entry-img">
+                                    <img src="/assets/img/blog-1.jpg" alt="" class="img-fluid">
+                                </div>
+                                <h2 class="entry-title">
+                                    <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                                </h2>
+                                
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li class="d-flex align-items-center"><i class="icofont-user"></i> 
+                                            {% for author in article.authors|sort %}
+                                            <a href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
+                                            {% endfor %}
+                                        </li>
+                                      <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <time datetime="{{ article.locale_date }}">{{ article.locale_date }}</time></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="entry-content"> 
+                                    {{ article.summary }} 
+                                    <div class="read-more">
+                                      <a href="{{ SITEURL }}/{{ article.url }}">Read More</a>
+                                    </div>
+                                </div><!-- /.entry-content -->
+
+                        </article>
+                {% endfor %}
+                
+
+        </div><!-- /.col-lg-8 entries -->
+        
+     {% include 'sidebar.html' %}
+ </div><!-- /.row -->
+
+
+{% include 'pagination.html' %}
+</div>
+</section><!-- End Blog Section -->
+{% endblock content %}

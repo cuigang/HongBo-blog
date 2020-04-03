@@ -1,0 +1,1 @@
+pelican content -o /Volumes/SD/WorkSpace/web2.0/view/blog
