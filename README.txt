@@ -1,8 +1,10 @@
 本地环境：
 	pelican content -o /Volumes/SD/WorkSpace/web2.0/view/blog
 
-服务器：
+开发服务器：
 	pelican content -o /var/www/yunpbx/webFlat/view/blog
+生产服务器：
+	pelican content -o /var/www/yunpbx/WebPortal2.0/view/blog
 
 图片位置：
 	路径：content/images
