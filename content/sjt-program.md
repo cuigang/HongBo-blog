@@ -23,21 +23,21 @@ Summary: 本文介绍了商继通线路的接入方案
 5、每个分机独享1个号码，或多个分机共享1个总机号码
 
 ## 网络拓扑
-![conf-key](/view/blog/images/sjt-img1.jpg)
+<img src="/view/blog/images/sjt-img1.jpg" alt="report" class="img-fluid">
 
 . 商继通平台起到线路的作用，支持云化方式接入，非常适合云化部署的平台。
 
 . 对端可以支持云PBX、呼叫中心、实体PBX，用户只要符合接入手册的要求，都可以接入。
 
 ## 云翼通全云化综合解决方案
-![conf-key](/view/blog/images/sjt-img2.png)
+<img src="/view/blog/images/sjt-img2.png" alt="report" class="img-fluid">
 
 ## 目标用户画像
-![conf-key](/view/blog/images/sjt-img3.png)
-![conf-key](/view/blog/images/sjt-img4.png)
+<img src="/view/blog/images/sjt-img3.png" alt="report" class="img-fluid">
+<img src="/view/blog/images/sjt-img4.png" alt="report" class="img-fluid">
 
 ## 标准资费
-![conf-key](/view/blog/images/sjt-img5.png)
+<img src="/view/blog/images/sjt-img5.png" alt="report" class="img-fluid">
 
 . 号码：号码为普通直线库选号。1个模块可以配置超过10个号码，发起申请时明确即可。
 
@@ -45,13 +45,13 @@ Summary: 本文介绍了商继通线路的接入方案
 
 ## 应用场景
 ### 场景一：单点接入全国码号外显，满足集中云化不熟（商继通+云中继）
-![conf-key](/view/blog/images/sjt-img6.png)
+<img src="/view/blog/images/sjt-img6.png" alt="report" class="img-fluid">
 
 ### 场景二：疫情助推下的居家办公需求（本地云翼通方案）
-![conf-key](/view/blog/images/sjt-img7.png)
+<img src="/view/blog/images/sjt-img7.png" alt="report" class="img-fluid">
 
 ### 场景三：全国大型连锁行业语音统一组网（全国云翼通方案）
-![conf-key](/view/blog/images/sjt-img8.png)
+<img src="/view/blog/images/sjt-img8.png" alt="report" class="img-fluid">
 
 ## 受理流程
 #### 1、选择合适的套餐    
