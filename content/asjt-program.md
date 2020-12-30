@@ -1,7 +1,7 @@
 Title: 商继通解决方案
 Authors: 鸿博信通
 Date: 2020-12-29 10:00
-Category: 商继通对接
+Category: 电信商继通对接
 Tags: 产品
 Picture: sjt-img1.jpg
 Summary: 本文介绍了商继通线路对接的解决方案
